@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container {
+            margin: 0 15px;
+        }
+
+        .bg-green {
+            background: #5E740B;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <h2>Ho Ten</h2>
+    <p>Luu xuan Dat</p>
+    <p>https://viblo.asia/p/tim-hieu-ve-template-literals-trong-javascript-XL6lA9MDlek</p>
+</div>
+</body>
+
+<script>
+    var idMain = document.getElementById(`main`);
+    console.log(idMain);
+
+    var content = `
+        <h2>jQuery.post()</h2>
+        <div>
+            <p>The jQuery.get() method is recommended when you want to make a quick and dirty Ajax call and you are sure it will be a GET. So here, there’s not much more to it. Short and sweet.</p>
+        </div>
+    `;
+
+    var bgGreen = 'bg-green';
+    var container = 'container';
+    idMain.innerHTML = `<div class="${container} ${bgGreen}">${content}</div>`;
+</script>
+</html>

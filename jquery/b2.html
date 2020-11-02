@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" 
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            alert("document ready")
+        });
+
+        $(window).on("load", function (e) {
+            alert("window load")
+        });
+    </script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>Su kien $(document).ready()</h1>
+        <p>
+            la su kien ma 
+        </p>
+        <p>Cach viet ngan gon cua su kien document.ready: $(function(){});</p>
+    </div>
+
+    <div>
+        <h1>Su kien $(window).load()</h1>
+        <p></p>
+    </div>
+</body>
+
+</html>

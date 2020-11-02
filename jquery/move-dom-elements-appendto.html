@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <style>
+        body {
+            padding: 10px;
+        }
+
+        header {
+            width: 90%;
+            margin: 10px 0 20px;
+            padding: 20px;
+            background-color: #ededed;
+            font-weight: bold;
+            font-size: 28px;
+            color: #334045;
+        }
+
+        h1 {
+            font-weight: bold;
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .box {
+            display: inline-block;
+            width: 35%;
+            padding: 20px;
+            background-color: #ededed;
+            min-height: 300px;
+            vertical-align: top;
+        }
+
+        li {
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        #left-list li {
+            background-color: #FFB347;
+        }
+
+        #right-list li {
+            background-color: #aec6cf;
+        }
+
+        li:hover {
+            cursor: pointer;
+            background-color: #aec6cf;
+        }
+
+        #left-list li:hover {
+            background-color: #aec6cf;
+        }
+
+        @media screen and (max-width: 320px) {
+            .box {
+                display: block;
+                width: 100%;
+                margin: 20px auto;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    Click a day of the week
+</header>
+<div class="box">
+    <h1>Left List</h1>
+    <ul id="left-list">
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+        <li>Thursday</li>
+        <li>Friday</li>
+    </ul>
+</div>
+
+<div class="box">
+    <h1>Right List</h1>
+    <ul id="right-list">
+
+    </ul>
+</div>
+<script !src="">
+    $(document).on('click', '#left-list li', function () {
+        $(this)
+            // .appendTo($('#right-list')) // di chuyển vào vùng bên phải
+            .appendTo($('#left-list')) // di chuyển xuống cuối
+            .unbind('click');
+    });
+</script>
+</body>
+</html>

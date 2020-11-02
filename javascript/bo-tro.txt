@@ -1,0 +1,27 @@
+1, hàm .innerText : lay ra noi dung dang text van ban (ko chua html) cua thanh phan, chuc nang thong ap dung: search, filter
+2, ki tu `` trong js thuan text, su dung ${} de in ra bien js trong chuoi ki tu ``
+
+https://www.youtube.com/channel/UC_UMEcP_kF0z4E6KbxCpV1w
+https://www.youtube.com/channel/UCDTXY_kku5Ro4U7o0gEehhA
+https://www.youtube.com/channel/UCh4yfIsO_D_7mYN8P-cOnuA
+https://www.youtube.com/channel/UCnfVQy051QFO-Ns8El1zL4w
+https://www.youtube.com/channel/UCfTE_oGgnIegzlJ6B8aEDBg
+https://www.youtube.com/channel/UCvzlnZbePin9kH-1JCKBt8Q
+https://www.youtube.com/channel/UC-ptWR16ITQyYOglXyQmpzw
+https://www.youtube.com/channel/UCHRp19HU7Y2LwfI0Ai6WAGQ
+https://www.youtube.com/channel/UCDTXY_kku5Ro4U7o0gEehhA
+https://www.youtube.com/playlist?list=PLWTu87GngvNxpWN6FVuEcS-YvFNq6RnqG laravel
+excel,
+https://www.youtube.com/channel/UCfT86wkqtNAOSOkWYq8XohQ
+https://www.youtube.com/c/JieJenn/playlists
+https://www.youtube.com/channel/UCcBKibvrvNU6Zaf6UQoVUnA
+https://www.youtube.com/playlist?list=PLZi2tdQERHM1vo7kDsFH54WU1MVPx_-HE
+
+rom android
+https://www.youtube.com/channel/UCkrTDnCYW3DVYJcCKA1e5bg
+
+tieng anh
+https://www.youtube.com/channel/UC3dhPsYlt5aRAK18caKnvSw
+https://www.youtube.com/channel/UCpNl85p-pgyiF30VknXDMUw
+https://www.youtube.com/playlist?list=PLhtX8g9IFiZoybEvACA0FcANqxxAs2LJV
+https://www.youtube.com/channel/UCDTXY_kku5Ro4U7o0gEehhA

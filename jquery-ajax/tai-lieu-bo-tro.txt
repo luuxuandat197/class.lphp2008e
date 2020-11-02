@@ -1,0 +1,4 @@
+jQuery offers three Ajax calls - jquery cung cap 3 câu lệnh ajax
+that are simple and painless - Nó rất đơn giản và dễ dàng
+
+----------------------------
